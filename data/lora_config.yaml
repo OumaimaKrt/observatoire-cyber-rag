@@ -1,0 +1,43 @@
+# ============================================================================
+# LORA CONFIGURATION - OBSERVATOIRE CYBER
+# ============================================================================
+
+model:
+  base_model: "microsoft/phi-2"
+  trust_remote_code: true
+
+lora:
+  r: 8                    # Rang de l'adaptation
+  lora_alpha: 16          # Facteur d'échelle
+  target_modules:         # Modules à adapter
+    - "q_proj"
+    - "k_proj"
+    - "v_proj"
+    - "o_proj"
+  lora_dropout: 0.1
+  bias: "none"
+  task_type: "CAUSAL_LM"
+
+training:
+  num_train_epochs: 3
+  per_device_train_batch_size: 4
+  per_device_eval_batch_size: 4
+  gradient_accumulation_steps: 4
+  learning_rate: 2e-4
+  warmup_steps: 100
+  logging_steps: 10
+  save_steps: 50
+  eval_steps: 50
+  evaluation_strategy: "steps"
+  save_total_limit: 2
+  load_best_model_at_end: true
+  fp16: false
+  report_to: "none"
+
+data:
+  train_file: "data/train_dataset.jsonl"
+  eval_file: "data/eval_dataset.jsonl"
+  max_length: 512
+
+output:
+  output_dir: "outputs/lora_checkpoints"

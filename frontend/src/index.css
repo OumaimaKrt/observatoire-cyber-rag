@@ -1,0 +1,214 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 15 27 45;
+    --surface: 22 36 59;
+    --gold: 201 147 46;
+    --text: 232 228 218;
+    --text-muted: 138 138 138;
+    --alert: 196 69 61;
+    --border: 22 36 59;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-text font-sans antialiased;
+  }
+
+  h1, h2, h3, h4, h5 {
+    @apply font-display tracking-tight;
+  }
+
+  /* Scrollbar personnalisée */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #0F1B2D;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #C9932E;
+    border-radius: 3px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #B8860B;
+  }
+
+  /* Sélection de texte */
+  ::selection {
+    background: #C9932E;
+    color: #0F1B2D;
+  }
+
+  /* Motif zellige en filigrane - séparateur */
+  .zellige-divider {
+    position: relative;
+    height: 2px;
+    margin: 2rem 0;
+    background: linear-gradient(90deg, transparent, #C9932E, transparent);
+  }
+
+  .zellige-divider::before {
+    content: "✦";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #C9932E;
+    background: #0F1B2D;
+    padding: 0 1rem;
+    font-size: 0.75rem;
+  }
+
+  /* Badges de sévérité */
+  .badge-critical {
+    @apply bg-[#C4453D]/20 text-[#C4453D] border border-[#C4453D]/30;
+  }
+  .badge-high {
+    @apply bg-[#E67A4A]/20 text-[#E67A4A] border border-[#E67A4A]/30;
+  }
+  .badge-medium {
+    @apply bg-[#C9932E]/20 text-[#C9932E] border border-[#C9932E]/30;
+  }
+  .badge-low {
+    @apply bg-[#4A7C8E]/20 text-[#4A7C8E] border border-[#4A7C8E]/30;
+  }
+  .badge-unknown {
+    @apply bg-[#5A5A5A]/20 text-[#8A8A8A] border border-[#5A5A5A]/30;
+  }
+
+  /* Badges de type de menace */
+  .badge-piratage {
+    @apply bg-[#1A3A5C]/30 text-[#4A90D9] border border-[#1A3A5C]/40;
+  }
+  .badge-phishing {
+    @apply bg-[#C9932E]/20 text-[#C9932E] border border-[#C9932E]/30;
+  }
+  .badge-ransomware {
+    @apply bg-[#C4453D]/20 text-[#C4453D] border border-[#C4453D]/30;
+  }
+  .badge-ddos {
+    @apply bg-[#4A7C8E]/30 text-[#4A7C8E] border border-[#4A7C8E]/40;
+  }
+  .badge-cheval-troie {
+    @apply bg-[#6A4A7C]/30 text-[#A87AB0] border border-[#6A4A7C]/40;
+  }
+  .badge-inconnu {
+    @apply bg-[#5A5A5A]/20 text-[#8A8A8A] border border-[#5A5A5A]/40;
+  }
+
+  /* Motif zellige en filigrane (fond) */
+  .zellige-pattern {
+    background-image: 
+      linear-gradient(45deg, rgba(201, 147, 46, 0.03) 25%, transparent 25%),
+      linear-gradient(-45deg, rgba(201, 147, 46, 0.03) 25%, transparent 25%),
+      linear-gradient(45deg, transparent 75%, rgba(201, 147, 46, 0.03) 75%),
+      linear-gradient(-45deg, transparent 75%, rgba(201, 147, 46, 0.03) 75%);
+    background-size: 40px 40px;
+  }
+}
+/* ====================================================
+   RECHARTS - COULEURS LISIBLES
+   ==================================================== */
+
+/* ✅ Texte des axes en clair */
+.recharts-cartesian-axis-tick text {
+  fill: #B0B0C0 !important;
+  font-size: 11px !important;
+}
+
+/* ✅ Labels des graphiques en clair */
+.recharts-label text {
+  fill: #E8E4DA !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+}
+
+/* ✅ Tooltips personnalisés */
+.custom-tooltip {
+  background: #0F1B2D !important;
+  border: 1px solid #C9932E !important;
+  border-radius: 8px !important;
+  padding: 12px 16px !important;
+  color: #E8E4DA !important;
+}
+
+.custom-tooltip .label {
+  color: #C9932E !important;
+  font-weight: 600 !important;
+  margin-bottom: 4px !important;
+}
+
+.custom-tooltip .value {
+  color: #E8E4DA !important;
+  font-size: 14px !important;
+}
+
+/* ✅ Légende en clair */
+.recharts-legend-item-text {
+  color: #E8E4DA !important;
+  font-size: 12px !important;
+}
+
+/* ✅ Barres avec couleurs vives */
+.recharts-bar-rectangle {
+  stroke: #C9932E !important;
+  stroke-width: 1px !important;
+}
+
+/* ✅ Tooltip Recharts par défaut */
+.recharts-tooltip-wrapper {
+  background: #0F1B2D !important;
+  border: 1px solid #C9932E !important;
+  border-radius: 8px !important;
+}
+
+.recharts-tooltip-item {
+  color: #E8E4DA !important;
+}
+
+.recharts-tooltip-label {
+  color: #C9932E !important;
+  font-weight: 600 !important;
+}
+
+/* ✅ Courbes avec couleurs vives */
+.recharts-line-curve {
+  stroke-width: 2px !important;
+}
+
+.recharts-line-dot {
+  fill: #C9932E !important;
+  stroke: #C9932E !important;
+  stroke-width: 2px !important;
+}
+
+/* ✅ Points actifs */
+.recharts-active-dot {
+  fill: #FFD700 !important;
+  stroke: #FFD700 !important;
+  r: 6px !important;
+}
+
+/* ✅ Pie Chart labels */
+.recharts-pie-label-text {
+  fill: #E8E4DA !important;
+  font-size: 11px !important;
+  font-weight: 500 !important;
+}
+
+/* ✅ Cellules Pie Chart */
+.recharts-pie-sector {
+  stroke: #0F1B2D !important;
+  stroke-width: 2px !important;
+}

@@ -1,0 +1,183 @@
+{
+  "date": "2026-08-09T13:27:26.029280",
+  "total_incidents": 6577,
+  "nb_24h": 764,
+  "types": [
+    {
+      "type_menace": "PIRATAGE",
+      "nb": 3219,
+      "pourcentage": 48.9
+    },
+    {
+      "type_menace": "VULNERABILITE",
+      "nb": 1714,
+      "pourcentage": 26.1
+    },
+    {
+      "type_menace": "INCONNU",
+      "nb": 1328,
+      "pourcentage": 20.2
+    },
+    {
+      "type_menace": "RANSOMWARE",
+      "nb": 68,
+      "pourcentage": 1.0
+    },
+    {
+      "type_menace": "CHEVAL_TROIE",
+      "nb": 57,
+      "pourcentage": 0.9
+    },
+    {
+      "type_menace": "DDOS",
+      "nb": 56,
+      "pourcentage": 0.9
+    },
+    {
+      "type_menace": "PHISHING",
+      "nb": 49,
+      "pourcentage": 0.7
+    },
+    {
+      "type_menace": "FUITE_DONNEES",
+      "nb": 37,
+      "pourcentage": 0.6
+    },
+    {
+      "type_menace": "SPYWARE",
+      "nb": 35,
+      "pourcentage": 0.5
+    },
+    {
+      "type_menace": "INCIDENT",
+      "nb": 8,
+      "pourcentage": 0.1
+    },
+    {
+      "type_menace": "VIRUS",
+      "nb": 2,
+      "pourcentage": 0.0
+    },
+    {
+      "type_menace": "BLANCHIMENT",
+      "nb": 2,
+      "pourcentage": 0.0
+    },
+    {
+      "type_menace": "SPOOFING",
+      "nb": 1,
+      "pourcentage": 0.0
+    },
+    {
+      "type_menace": "ESCROQUERIE",
+      "nb": 1,
+      "pourcentage": 0.0
+    }
+  ],
+  "secteurs": [
+    {
+      "secteur_cible": "INCONNU",
+      "nb": 2681,
+      "pourcentage": 40.8
+    },
+    {
+      "secteur_cible": "TECHNOLOGIE",
+      "nb": 1812,
+      "pourcentage": 27.6
+    },
+    {
+      "secteur_cible": "TELECOM",
+      "nb": 639,
+      "pourcentage": 9.7
+    },
+    {
+      "secteur_cible": "TRANSPORT",
+      "nb": 328,
+      "pourcentage": 5.0
+    },
+    {
+      "secteur_cible": "COMMERCE",
+      "nb": 279,
+      "pourcentage": 4.2
+    },
+    {
+      "secteur_cible": "ENERGIE",
+      "nb": 217,
+      "pourcentage": 3.3
+    },
+    {
+      "secteur_cible": "INDUSTRIE",
+      "nb": 199,
+      "pourcentage": 3.0
+    },
+    {
+      "secteur_cible": "FINANCE",
+      "nb": 142,
+      "pourcentage": 2.2
+    },
+    {
+      "secteur_cible": "EDUCATION",
+      "nb": 102,
+      "pourcentage": 1.6
+    },
+    {
+      "secteur_cible": "ADMINISTRATION",
+      "nb": 49,
+      "pourcentage": 0.7
+    }
+  ],
+  "evolution_jour": [
+    {
+      "jour": "2026-08-09",
+      "nb": 163
+    },
+    {
+      "jour": "2026-08-08",
+      "nb": 960
+    },
+    {
+      "jour": "2026-08-07",
+      "nb": 377
+    },
+    {
+      "jour": "2026-07-30",
+      "nb": 431
+    },
+    {
+      "jour": "2026-07-29",
+      "nb": 530
+    },
+    {
+      "jour": "2026-07-28",
+      "nb": 324
+    },
+    {
+      "jour": "2026-07-24",
+      "nb": 820
+    },
+    {
+      "jour": "2026-07-18",
+      "nb": 315
+    },
+    {
+      "jour": "2026-07-15",
+      "nb": 425
+    },
+    {
+      "jour": "2026-07-14",
+      "nb": 253
+    },
+    {
+      "jour": "2026-07-13",
+      "nb": 282
+    },
+    {
+      "jour": "2026-07-12",
+      "nb": 229
+    },
+    {
+      "jour": "2026-07-10",
+      "nb": 236
+    }
+  ]
+}

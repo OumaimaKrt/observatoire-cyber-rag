@@ -1,0 +1,29 @@
+CLASSIFICATION ML DES MENACES CYBER
+======================================================================
+
+Modèle : LinearSVC_C0.5
+
+Accuracy    : 0.9242
+Precision   : 0.6928
+Recall      : 0.6205
+Macro-F1    : 0.6396
+Weighted-F1 : 0.9229
+
+RAPPORT DE CLASSIFICATION
+----------------------------------------------------------------------
+               precision    recall  f1-score   support
+
+ CHEVAL_TROIE       0.54      0.86      0.67        66
+         DDOS       0.94      0.48      0.64        33
+ EXPLOITATION       0.11      0.08      0.10        12
+FUITE_DONNEES       0.94      0.75      0.83        20
+      MALWARE       0.94      0.87      0.91      1037
+     PHISHING       0.20      0.08      0.12        12
+     PIRATAGE       0.81      0.86      0.83       315
+   RANSOMWARE       0.81      0.77      0.79        22
+      SPYWARE       0.67      0.44      0.53        18
+VULNERABILITE       0.96      0.99      0.98      1856
+
+     accuracy                           0.92      3391
+    macro avg       0.69      0.62      0.64      3391
+ weighted avg       0.93      0.92      0.92      3391

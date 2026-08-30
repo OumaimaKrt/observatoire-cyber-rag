@@ -1,0 +1,208 @@
+{
+  "metadata": {
+    "evaluation_version": "V4",
+    "timestamp": "20260829_141937",
+    "data_version": "2026-08-27",
+    "data_provenance": "Données PostgreSQL en temps réel (mise à jour automatique)",
+    "evaluation_questions": 70,
+    "architecture": {
+      "rag_api": "http://127.0.0.1:8000/api/chat/",
+      "generator_llm": "llama3.2:3b",
+      "evaluator_llm": "llama3.2:3b",
+      "embedding_model": "BAAI/bge-m3",
+      "ragas_config": {
+        "timeout_seconds": 3600,
+        "num_predict": 256,
+        "num_ctx": 2048
+      }
+    },
+    "note": "LLM évaluateur identique au LLM générateur car llama3.2:3b est le modèle principal."
+  },
+  "ragas_native_metrics": {
+    "metrics": [
+      "faithfulness",
+      "answer_relevancy",
+      "context_precision",
+      "context_recall",
+      "answer_correctness",
+      "answer_similarity"
+    ],
+    "scores": {
+      "faithfulness": {
+        "mean": 0.4737588652482269,
+        "std": 0.4278886582687287,
+        "min": 0.0,
+        "max": 1.0,
+        "count": 47,
+        "description": "Fidélité de la réponse aux contextes récupérés"
+      },
+      "answer_relevancy": {
+        "mean": 0.3862438198451147,
+        "std": 0.36989276175792074,
+        "min": 0.0,
+        "max": 0.9575622725449907,
+        "count": 65,
+        "description": "Pertinence de la réponse par rapport à la question"
+      },
+      "context_precision": {
+        "mean": 0.509803921542647,
+        "std": 0.504878164271672,
+        "min": 0.0,
+        "max": 0.99999999998,
+        "count": 51,
+        "description": "Précision des contextes récupérés"
+      },
+      "context_recall": {
+        "mean": 0.8090277777777777,
+        "std": 0.2618121593375483,
+        "min": 0.0,
+        "max": 1.0,
+        "count": 48,
+        "description": "Rappel des informations nécessaires dans les contextes"
+      },
+      "answer_correctness": {
+        "mean": 0.39497503437446235,
+        "std": 0.16755236560148093,
+        "min": 0.11281558073799271,
+        "max": 0.7233461967286253,
+        "count": 58,
+        "description": "Correction factuelle par rapport au ground truth"
+      },
+      "answer_similarity": {
+        "mean": 0.6017348675015932,
+        "std": 0.1562794263150186,
+        "min": 0.33466647170391095,
+        "max": 0.9169448654948176,
+        "count": 70,
+        "description": "Similarité sémantique avec le ground truth"
+      }
+    },
+    "descriptions": {
+      "faithfulness": "Fidélité de la réponse aux contextes récupérés",
+      "answer_relevancy": "Pertinence de la réponse par rapport à la question",
+      "context_precision": "Précision des contextes récupérés",
+      "context_recall": "Rappel des informations nécessaires dans les contextes",
+      "answer_correctness": "Correction factuelle par rapport au ground truth",
+      "answer_similarity": "Similarité sémantique avec le ground truth"
+    },
+    "description": "Métriques calculées directement par le framework RAGAS."
+  },
+  "custom_metrics": {
+    "scores": {
+      "statistical_accuracy": 1.0,
+      "refusal_accuracy": 1.0,
+      "abstention_accuracy": 0.875,
+      "hallucination_proxy_rate": 0.1,
+      "ambiguous_success": 0.5831,
+      "api_error_rate": 0.0
+    },
+    "description": "Métriques complémentaires développées spécifiquement pour l'Observatoire.",
+    "limitations": {
+      "statistical_accuracy": "Les données PostgreSQL sont dynamiques. Tolérance de 20% appliquée."
+    }
+  },
+  "performance": {
+    "mean_seconds": 9.088,
+    "median_seconds": 3.088,
+    "p95_seconds": 29.158,
+    "min_seconds": 0.011,
+    "max_seconds": 64.05,
+    "api_error_rate": 0.0,
+    "successful_queries": 70,
+    "failed_queries": 0,
+    "ragas_evaluation_time_seconds": 2275.444
+  },
+  "composite_score": {
+    "retrieval": 0.6594,
+    "generation": 0.4388,
+    "accuracy": 0.4777,
+    "overall": 0.5387,
+    "quality": "FAIBLE",
+    "interpretation": "Le système RAG nécessite des améliorations significatives.",
+    "weights": {
+      "retrieval": 0.4,
+      "generation": 0.3,
+      "accuracy": 0.3
+    },
+    "justification": "La récupération est pondérée à 40% car elle est le fondement du RAG. La génération (30%) et l'exactitude (30%) sont pondérées équitablement.",
+    "type": "composite_score_proposed"
+  },
+  "category_results": {
+    "GUIDE_PME": {
+      "count": 30,
+      "successful": 30,
+      "error_count": 0,
+      "error_rate": 0.0,
+      "avg_response_time": 16.607,
+      "ragas_scores": {
+        "faithfulness": 0.3111,
+        "answer_relevancy": 0.5885,
+        "context_precision": 0.9375,
+        "context_recall": 0.8718,
+        "answer_correctness": 0.4968,
+        "answer_similarity": 0.7242
+      }
+    },
+    "STATISTIQUES": {
+      "count": 15,
+      "successful": 15,
+      "error_count": 0,
+      "error_rate": 0.0,
+      "avg_response_time": 0.112,
+      "ragas_scores": {
+        "faithfulness": 0.5077,
+        "answer_relevancy": 0.4342,
+        "context_precision": 0.6667,
+        "context_recall": 0.9333,
+        "answer_correctness": 0.3544,
+        "answer_similarity": 0.4049
+      }
+    },
+    "HORS_DOMAINE": {
+      "count": 10,
+      "successful": 10,
+      "error_count": 0,
+      "error_rate": 0.0,
+      "avg_response_time": 0.021,
+      "ragas_scores": {
+        "faithfulness": 0.5556,
+        "answer_relevancy": 0.0954,
+        "context_precision": 0.0,
+        "context_recall": 0.65,
+        "answer_correctness": 0.3984,
+        "answer_similarity": 0.5148
+      }
+    },
+    "ANTI_HALLUCINATION": {
+      "count": 10,
+      "successful": 10,
+      "error_count": 0,
+      "error_rate": 0.0,
+      "avg_response_time": 1.098,
+      "ragas_scores": {
+        "faithfulness": 0.6,
+        "answer_relevancy": 0.0,
+        "context_precision": 0.1,
+        "context_recall": 0.6667,
+        "answer_correctness": 0.2083,
+        "answer_similarity": 0.5831
+      }
+    },
+    "AMBIGU": {
+      "count": 5,
+      "successful": 5,
+      "error_count": 0,
+      "error_rate": 0.0,
+      "avg_response_time": 25.009,
+      "ragas_scores": {
+        "answer_relevancy": 0.5831,
+        "context_recall": 1.0,
+        "answer_similarity": 0.6683
+      }
+    }
+  },
+  "files": {
+    "raw_results": "C:\\Users\\dell\\Desktop\\observatoire_cyber\\ragas_results\\raw_results_20260829_141937.csv",
+    "ragas_scores": "C:\\Users\\dell\\Desktop\\observatoire_cyber\\ragas_results\\ragas_scores_20260829_141937.csv"
+  }
+}

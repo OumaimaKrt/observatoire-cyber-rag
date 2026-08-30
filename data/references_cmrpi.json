@@ -1,0 +1,203 @@
+{
+  "menaces": [
+    {
+      "code": "PHISHING",
+      "nom": "Phishing / Hameçonnage",
+      "description": "Technique de fraude visant à obtenir des renseignements personnels"
+    },
+    {
+      "code": "KEYLOGGER",
+      "nom": "Keylogger",
+      "description": "Programme enregistrant les frappes clavier"
+    },
+    {
+      "code": "RANSOMWARE",
+      "nom": "Ransomware",
+      "description": "Logiciel malveillant prenant en otage des données"
+    },
+    {
+      "code": "SPYWARE",
+      "nom": "Spyware",
+      "description": "Logiciel espion collectant des informations"
+    },
+    {
+      "code": "CHEVAL_TROIE",
+      "nom": "Cheval de Troie",
+      "description": "Programme légitime contenant un code malveillant"
+    },
+    {
+      "code": "DDOS",
+      "nom": "DDoS",
+      "description": "Attaque par déni de service distribué"
+    },
+    {
+      "code": "SPOOFING",
+      "nom": "Spoofing",
+      "description": "Usurpation d'identité électronique"
+    },
+    {
+      "code": "VIRUS",
+      "nom": "Virus",
+      "description": "Programme autoréplicant infectant les systèmes"
+    },
+    {
+      "code": "VER",
+      "nom": "Ver informatique",
+      "description": "Logiciel malveillant se reproduisant sur un réseau"
+    },
+    {
+      "code": "SPAM",
+      "nom": "Spam",
+      "description": "Email non sollicité envoyé en masse"
+    },
+    {
+      "code": "BLANCHIMENT",
+      "nom": "Blanchiment",
+      "description": "Utilisation de monnaies virtuelles pour blanchir des fonds"
+    },
+    {
+      "code": "ESCROQUERIE",
+      "nom": "Escroquerie paiement",
+      "description": "Fraude sur les moyens de paiement électronique"
+    }
+  ],
+  "secteurs": [
+    {
+      "code": "FINANCE",
+      "nom": "Finance / Assurance",
+      "description": "Banques, assurances, services financiers"
+    },
+    {
+      "code": "COMMERCE",
+      "nom": "Commerce / Retail",
+      "description": "Vente en ligne, boutiques, e-commerce"
+    },
+    {
+      "code": "INDUSTRIE",
+      "nom": "Industrie / Manufacturing",
+      "description": "Systèmes industriels, SCADA/ICS"
+    },
+    {
+      "code": "SANTE",
+      "nom": "Santé / Pharmacie",
+      "description": "Hôpitaux, données médicales"
+    },
+    {
+      "code": "TRANSPORT",
+      "nom": "Transport / Logistique",
+      "description": "Chaîne d'approvisionnement, gestion de flotte"
+    },
+    {
+      "code": "TELECOM",
+      "nom": "Télécom / IT",
+      "description": "Opérateurs, services informatiques"
+    },
+    {
+      "code": "BTP",
+      "nom": "BTP / Construction",
+      "description": "Chantiers, bâtiments"
+    },
+    {
+      "code": "SERVICES",
+      "nom": "Services",
+      "description": "Conseil, audit, services aux entreprises"
+    },
+    {
+      "code": "HOTELLERIE",
+      "nom": "Hôtellerie / Tourisme",
+      "description": "Hôtels, restauration, tourisme"
+    }
+  ],
+  "bonnes_pratiques": [
+    "Choisir avec soin ses mots de passe",
+    "Mettre à jour régulièrement vos logiciels",
+    "Bien connaître ses utilisateurs et ses prestataires",
+    "Effectuer des sauvegardes régulières",
+    "Sécuriser l'accès Wi-Fi de votre entreprise",
+    "Être prudent avec son ordiphone (smartphone) ou sa tablette",
+    "Protéger ses données lors de ses déplacements",
+    "Être prudent lors de l'utilisation de sa messagerie",
+    "Télécharger ses programmes sur les sites officiels des éditeurs",
+    "Être vigilant lors d'un paiement sur Internet",
+    "Séparer les usages personnels des usages professionnels",
+    "Prendre soin de ses informations personnelles, professionnelles et de son identité numérique"
+  ],
+  "lois": [
+    {
+      "nom": "Loi 07-03",
+      "description": "Infractions relatives aux systèmes de traitement automatisé des données"
+    },
+    {
+      "nom": "Loi 53-05",
+      "description": "Échange électronique de données juridiques"
+    },
+    {
+      "nom": "Loi 31-08",
+      "description": "Protection du consommateur (e-commerce)"
+    },
+    {
+      "nom": "Loi 09-08",
+      "description": "Protection des données personnelles"
+    },
+    {
+      "nom": "Loi 17-97",
+      "description": "Protection de la propriété industrielle"
+    },
+    {
+      "nom": "DNSSI",
+      "description": "Directive Nationale de Sécurité des Systèmes d'Information"
+    },
+    {
+      "nom": "ISO 27001",
+      "description": "Système de Management de la Sécurité de l'Information"
+    },
+    {
+      "nom": "ISO 27002",
+      "description": "Code de bonnes pratiques pour la sécurité de l'information"
+    },
+    {
+      "nom": "ISO 27005",
+      "description": "Gestion des risques de la sécurité de l'information"
+    },
+    {
+      "nom": "RGPD",
+      "description": "Règlement général sur la protection des données"
+    },
+    {
+      "nom": "Convention de Budapest",
+      "description": "Convention sur la cybercriminalité"
+    }
+  ],
+  "niveaux_maturite": [
+    {
+      "niveau": 1,
+      "score_min": 0,
+      "score_max": 20,
+      "label": "Pratique informelle"
+    },
+    {
+      "niveau": 2,
+      "score_min": 20,
+      "score_max": 40,
+      "label": "Pratique répétable et suivie"
+    },
+    {
+      "niveau": 3,
+      "score_min": 40,
+      "score_max": 60,
+      "label": "Processus défini"
+    },
+    {
+      "niveau": 4,
+      "score_min": 60,
+      "score_max": 80,
+      "label": "Processus contrôlé"
+    },
+    {
+      "niveau": 5,
+      "score_min": 80,
+      "score_max": 102,
+      "label": "Processus optimisé"
+    }
+  ]
+}

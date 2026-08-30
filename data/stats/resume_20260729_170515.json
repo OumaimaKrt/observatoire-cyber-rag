@@ -1,0 +1,169 @@
+{
+  "date": "2026-07-29T17:05:15.824534",
+  "total_incidents": 4485,
+  "nb_24h": 618,
+  "types": [
+    {
+      "type_menace": "PIRATAGE",
+      "nb": 2833,
+      "pourcentage": 63.2
+    },
+    {
+      "type_menace": "INCONNU",
+      "nb": 949,
+      "pourcentage": 21.2
+    },
+    {
+      "type_menace": "CHEVAL_TROIE",
+      "nb": 217,
+      "pourcentage": 4.8
+    },
+    {
+      "type_menace": "PHISHING",
+      "nb": 207,
+      "pourcentage": 4.6
+    },
+    {
+      "type_menace": "DDOS",
+      "nb": 163,
+      "pourcentage": 3.6
+    },
+    {
+      "type_menace": "RANSOMWARE",
+      "nb": 68,
+      "pourcentage": 1.5
+    },
+    {
+      "type_menace": "SPYWARE",
+      "nb": 27,
+      "pourcentage": 0.6
+    },
+    {
+      "type_menace": "SPOOFING",
+      "nb": 12,
+      "pourcentage": 0.3
+    },
+    {
+      "type_menace": "BLANCHIMENT",
+      "nb": 4,
+      "pourcentage": 0.1
+    },
+    {
+      "type_menace": "VIRUS",
+      "nb": 3,
+      "pourcentage": 0.1
+    },
+    {
+      "type_menace": "VER",
+      "nb": 1,
+      "pourcentage": 0.0
+    },
+    {
+      "type_menace": "ESCROQUERIE",
+      "nb": 1,
+      "pourcentage": 0.0
+    }
+  ],
+  "secteurs": [
+    {
+      "secteur_cible": "INCONNU",
+      "nb": 3066,
+      "pourcentage": 68.4
+    },
+    {
+      "secteur_cible": "TELECOM",
+      "nb": 648,
+      "pourcentage": 14.4
+    },
+    {
+      "secteur_cible": "FINANCE",
+      "nb": 155,
+      "pourcentage": 3.5
+    },
+    {
+      "secteur_cible": "COMMERCE",
+      "nb": 136,
+      "pourcentage": 3.0
+    },
+    {
+      "secteur_cible": "TRANSPORT",
+      "nb": 129,
+      "pourcentage": 2.9
+    },
+    {
+      "secteur_cible": "EDUCATION",
+      "nb": 91,
+      "pourcentage": 2.0
+    },
+    {
+      "secteur_cible": "INDUSTRIE",
+      "nb": 82,
+      "pourcentage": 1.8
+    },
+    {
+      "secteur_cible": "SERVICES",
+      "nb": 63,
+      "pourcentage": 1.4
+    },
+    {
+      "secteur_cible": "HOTELLERIE",
+      "nb": 36,
+      "pourcentage": 0.8
+    },
+    {
+      "secteur_cible": "ENERGIE",
+      "nb": 30,
+      "pourcentage": 0.7
+    }
+  ],
+  "evolution_jour": [
+    {
+      "jour": "2026-07-29",
+      "nb": 294
+    },
+    {
+      "jour": "2026-07-28",
+      "nb": 324
+    },
+    {
+      "jour": "2026-07-24",
+      "nb": 830
+    },
+    {
+      "jour": "2026-07-18",
+      "nb": 320
+    },
+    {
+      "jour": "2026-07-15",
+      "nb": 434
+    },
+    {
+      "jour": "2026-07-14",
+      "nb": 262
+    },
+    {
+      "jour": "2026-07-13",
+      "nb": 290
+    },
+    {
+      "jour": "2026-07-12",
+      "nb": 237
+    },
+    {
+      "jour": "2026-07-10",
+      "nb": 528
+    },
+    {
+      "jour": "2026-07-08",
+      "nb": 256
+    },
+    {
+      "jour": "2026-07-07",
+      "nb": 98
+    },
+    {
+      "jour": "2026-07-06",
+      "nb": 612
+    }
+  ]
+}

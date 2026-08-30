@@ -1,0 +1,116 @@
+{
+  "date": "2026-07-18T16:11:32.790727",
+  "total_incidents": 2717,
+  "nb_24h": 0,
+  "types": [
+    {
+      "type_menace": "PIRATAGE",
+      "nb": 1648,
+      "pourcentage": 60.7
+    },
+    {
+      "type_menace": "INCONNU",
+      "nb": 618,
+      "pourcentage": 22.7
+    },
+    {
+      "type_menace": "PHISHING",
+      "nb": 153,
+      "pourcentage": 5.6
+    },
+    {
+      "type_menace": "DDOS",
+      "nb": 140,
+      "pourcentage": 5.2
+    },
+    {
+      "type_menace": "CHEVAL_TROIE",
+      "nb": 80,
+      "pourcentage": 2.9
+    },
+    {
+      "type_menace": "RANSOMWARE",
+      "nb": 35,
+      "pourcentage": 1.3
+    },
+    {
+      "type_menace": "SPYWARE",
+      "nb": 19,
+      "pourcentage": 0.7
+    },
+    {
+      "type_menace": "BLANCHIMENT",
+      "nb": 11,
+      "pourcentage": 0.4
+    },
+    {
+      "type_menace": "SPOOFING",
+      "nb": 11,
+      "pourcentage": 0.4
+    },
+    {
+      "type_menace": "ESCROQUERIE",
+      "nb": 1,
+      "pourcentage": 0.0
+    },
+    {
+      "type_menace": "VIRUS",
+      "nb": 1,
+      "pourcentage": 0.0
+    }
+  ],
+  "secteurs": [
+    {
+      "secteur_cible": "TELECOM",
+      "nb": 1086,
+      "pourcentage": 40.0
+    },
+    {
+      "secteur_cible": "INCONNU",
+      "nb": 459,
+      "pourcentage": 16.9
+    },
+    {
+      "secteur_cible": "TRANSPORT",
+      "nb": 411,
+      "pourcentage": 15.1
+    },
+    {
+      "secteur_cible": "COMMERCE",
+      "nb": 183,
+      "pourcentage": 6.7
+    },
+    {
+      "secteur_cible": "FINANCE",
+      "nb": 147,
+      "pourcentage": 5.4
+    },
+    {
+      "secteur_cible": "INDUSTRIE",
+      "nb": 116,
+      "pourcentage": 4.3
+    },
+    {
+      "secteur_cible": "ENERGIE",
+      "nb": 91,
+      "pourcentage": 3.3
+    },
+    {
+      "secteur_cible": "EDUCATION",
+      "nb": 72,
+      "pourcentage": 2.6
+    },
+    {
+      "secteur_cible": "SANTE",
+      "nb": 54,
+      "pourcentage": 2.0
+    },
+    {
+      "secteur_cible": "AGROALIMENTAIRE",
+      "nb": 45,
+      "pourcentage": 1.7
+    }
+  ],
+  "evolution_jour": [
+    {
+      "jour": 

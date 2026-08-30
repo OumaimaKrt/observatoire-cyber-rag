@@ -1,0 +1,157 @@
+{
+  "date": "2026-07-24T16:24:18.462109",
+  "total_incidents": 3037,
+  "nb_24h": 0,
+  "types": [
+    {
+      "type_menace": "PIRATAGE",
+      "nb": 1699,
+      "pourcentage": 55.9
+    },
+    {
+      "type_menace": "INCONNU",
+      "nb": 744,
+      "pourcentage": 24.5
+    },
+    {
+      "type_menace": "CHEVAL_TROIE",
+      "nb": 171,
+      "pourcentage": 5.6
+    },
+    {
+      "type_menace": "PHISHING",
+      "nb": 171,
+      "pourcentage": 5.6
+    },
+    {
+      "type_menace": "DDOS",
+      "nb": 106,
+      "pourcentage": 3.5
+    },
+    {
+      "type_menace": "Piratage",
+      "nb": 53,
+      "pourcentage": 1.7
+    },
+    {
+      "type_menace": "RANSOMWARE",
+      "nb": 52,
+      "pourcentage": 1.7
+    },
+    {
+      "type_menace": "SPYWARE",
+      "nb": 23,
+      "pourcentage": 0.8
+    },
+    {
+      "type_menace": "SPOOFING",
+      "nb": 12,
+      "pourcentage": 0.4
+    },
+    {
+      "type_menace": "BLANCHIMENT",
+      "nb": 3,
+      "pourcentage": 0.1
+    },
+    {
+      "type_menace": "VIRUS",
+      "nb": 2,
+      "pourcentage": 0.1
+    },
+    {
+      "type_menace": "ESCROQUERIE",
+      "nb": 1,
+      "pourcentage": 0.0
+    }
+  ],
+  "secteurs": [
+    {
+      "secteur_cible": "INCONNU",
+      "nb": 1831,
+      "pourcentage": 60.3
+    },
+    {
+      "secteur_cible": "TELECOM",
+      "nb": 481,
+      "pourcentage": 15.8
+    },
+    {
+      "secteur_cible": "FINANCE",
+      "nb": 144,
+      "pourcentage": 4.7
+    },
+    {
+      "secteur_cible": "TRANSPORT",
+      "nb": 124,
+      "pourcentage": 4.1
+    },
+    {
+      "secteur_cible": "COMMERCE",
+      "nb": 90,
+      "pourcentage": 3.0
+    },
+    {
+      "secteur_cible": "EDUCATION",
+      "nb": 79,
+      "pourcentage": 2.6
+    },
+    {
+      "secteur_cible": "INDUSTRIE",
+      "nb": 69,
+      "pourcentage": 2.3
+    },
+    {
+      "secteur_cible": "IT_Telecom",
+      "nb": 65,
+      "pourcentage": 2.1
+    },
+    {
+      "secteur_cible": "SERVICES",
+      "nb": 54,
+      "pourcentage": 1.8
+    },
+    {
+      "secteur_cible": "HOTELLERIE",
+      "nb": 26,
+      "pourcentage": 0.9
+    }
+  ],
+  "evolution_jour": [
+    {
+      "jour": "2026-07-18",
+      "nb": 320
+    },
+    {
+      "jour": "2026-07-15",
+      "nb": 434
+    },
+    {
+      "jour": "2026-07-14",
+      "nb": 262
+    },
+    {
+      "jour": "2026-07-13",
+      "nb": 290
+    },
+    {
+      "jour": "2026-07-12",
+      "nb": 237
+    },
+    {
+      "jour": "2026-07-10",
+      "nb": 528
+    },
+    {
+      "jour": "2026-07-08",
+      "nb": 256
+    },
+    {
+      "jour": "2026-07-07",
+      "nb": 98
+    },
+    {
+      "jour": "2026-07-06",
+      "nb": 612
+    }
+  ]
+}
